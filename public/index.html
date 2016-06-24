@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
-
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
     <div class="wrapper">
         <header class="header">
             <div class="main-wrap">
@@ -40,7 +45,8 @@
                     <div class="wrap-main-container__sub-article sub-article">
                         <ul class="sub-article__list">
                             <li class="sub-article__item">
-                                <img class="img-responsive" src="img/small-img-1.jpg" alt="">
+                                <img class="img-desktop" src="img/small-img-1.jpg" alt="">
+                                <img class="img-responsive-custom" src="img/small-img-1-mob.jpg" alt="">
                                 <h3 class="custom-title">Small item</h3>
                                 <p class="custom-text">
                                     Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
@@ -48,7 +54,8 @@
                                 <a class="btn btn-black" href="#">Details</a>
                             </li>
                             <li class="sub-article__item">
-                                <img class="img-responsive" src="img/small-img-2.jpg" alt="">
+                                <img class="img-desktop" src="img/small-img-2.jpg" alt="">
+                                <img class="img-responsive-custom" src="img/small-img-2-mob.jpg" alt="">
                                 <h3 class="custom-title">Small item</h3>
                                 <p class="custom-text">
                                     Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
