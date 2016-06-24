@@ -1,0 +1,41 @@
+@import "../base/variables"
+@import "../core/typography"
+
+html,
+body,
+.wrapper
+  height: 100%
+
+#main
+  padding-bottom: 271px
+  width: 100%
+  
+.wrapper
+  margin: 0 auto
+  height: auto
+  min-height: 100%
+
+.clearfix:after
+  content: "."
+  display: block
+  height: 0
+  clear: both
+  visibility: hidden
+
+.clearfix
+  display: inline-block
+
+.main-wrap
+  max-width: 600px
+  margin: 0 auto
+
+.custom-title
+  font: $bigSize $OpenSansBold
+  text-transform: uppercase
+  color: $black
+  letter-spacing: -0.5px
+
+.custom-text
+  font: $middleSize $HelveticaNeueMedium
+  color: $text-gray
+  line-height: $customLineHeight

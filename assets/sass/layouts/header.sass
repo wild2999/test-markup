@@ -1,0 +1,37 @@
+@import "../base/variables"
+@import "../core/typography"
+
+.header
+  background: $lighter-gray
+  height: 100px
+  & > .main-wrap
+    height: inherit
+    background: $black
+
+.logo-header
+  padding: 0 31px
+  &__text
+    float: right
+    margin-top: 50px
+    letter-spacing: 0
+    & > span
+      color: $white
+      font: $smallerSize $OpenSansBold
+      & > a
+        color: $text-gray
+        text-decoration: none
+
+.wrap-logo-header
+  float: left
+  &__link
+    text-decoration: none
+    &-img
+      margin-top: 34px
+      margin-bottom: -4px
+    &-text
+      font: $biggerSize $OpenSansBold
+      color: $white
+      padding-left: 15px
+      letter-spacing: -0.9px
+      & > span
+        color: $text-gray
